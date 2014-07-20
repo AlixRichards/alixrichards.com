@@ -62,8 +62,10 @@ textarea {
    ========================================================================== */
 
 body{
-	text-align: center;
-	color: #FFF;
+    background-color: #222;
+	color: #333;
+    font-family: 'Open Sans', Arial, serif; 
+    font-weight: 300;
 }
 
 #wrapper{
@@ -77,17 +79,184 @@ body{
 	margin: 0 auto;
 }
 
+header{
+    position: relative;
+}
+
+header nav{
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    padding: 1%;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #333;
+}
+
 h1{
-	font-size: 5em;
+    font-family: 'Open Sans', Arial, serif; 
+    font-weight: 600;
+	font-size: 2em;
 	line-height: 1.2em;
+    color: #FFF;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
 }
 
-a{
-	color: #FFF;
+h2{
+    font-family: 'Open Sans', Arial, serif; 
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.head01{
+    background-color: #333333;
+    padding: 20% 0 0 0;
+    text-align: center;
+}
+
+.head02{
+    background-color: #99cccc;
+    padding:  0 0 20% 0;
+    text-align: center;
+}
+
+#aboutMe{
+    width: 100%;
+    background-color: #FFF;
+    display:table;
+}
+
+#aboutMe h1{
+    color: #333;
+    float: left;
+    font-family: 'Open Sans', Arial, serif; 
+    font-weight: 300;
+    margin: 5% 0 0 10% ;
+}
+
+#aboutMe img{
+    width: 30%;
+    float: left;
+    margin: 10% 0;
+}
+
+#aboutMe p{
+    width: 60%;
+    float: left;
+    margin: 3% 5%;
 }
 
 
+#work{
+    width: 100%;
+    background-color: #99cccc;
+    display:table;
+}
 
+#work .content{
+    width: 90%;
+    background-color: #FFF;
+    margin: 5%;
+    display:table;
+}
+
+#work h1{
+    color: #333;
+    font-family: 'Open Sans', Arial, serif; 
+    font-weight: 300;
+    margin: 5% 0;
+}
+
+h1.workTitle{
+    text-align: center;
+}
+
+#work .content .projects{
+    display: table;
+    margin: 0 7% 5% 7%;
+}
+
+#work .content .project{
+    width: 30%;
+    float: left;
+}
+
+#work .content .project img{
+    width: 100%;
+}
+
+#work .content .project.center{
+    margin: 0 5%;
+}
+
+#work .content .project h1, #work .content .project h2{
+    font-family: 'Open Sans', Arial, serif; 
+    font-weight: 600;
+    margin-left: 5%;
+}
+
+#work .content .project h1{
+    font-size: 1.3em;
+}
+
+#work .content .project h2{
+    font-size: 0.9em;
+}
+
+#work .content .project a{
+    font-size: 0.9em;
+    margin-left: 5%;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#contact{
+    width: 100%;
+    background-color: #333;
+    color:#FFF;
+    display:table;
+}
+
+#contact h1{
+   font-family: 'Open Sans', Arial, serif; 
+   font-weight: 300;
+   text-align:center; 
+   padding: 5% 0 0 0;
+}
+
+#contact p{
+   font-family: 'Open Sans', Arial, serif; 
+   font-weight: 300;
+   text-align:center;  
+}
+
+.social{
+    display:block;
+    width: 40%;
+    margin: 0 30% 20% 30%;
+    padding: 0;
+}
+
+ul li{
+    list-style-type: none;
+    float: left;
+    color: #FFF;
+    padding-left: 5%;
+}
+
+ul li a{
+    color: #FFF;
+}
 
 
 
@@ -106,43 +275,63 @@ a{
    ========================================================================== */
 
 @media only screen and (max-width: 640px) {
-	body{
-		background-color: #1cbb90;
-	}
 	
 	#content{
-		width: 80%;
-		margin: 0 10%;
+		width: 90%;
+		margin: 0 5%;
 	}
-	
-	h1{
-		font-size: 2em;
-		line-height: 1.2em;
-	}	
-	
+
+    h2{
+        font-size: 1.8em;
+    }
+
+    #aboutMe img{
+        width: 100%;
+        margin: 10% 0 0 0;
+        padding: 0;
+    }
+
+    #aboutMe h1{
+        text-align:center;
+        width: 90%;
+        margin: 5%;
+    }
+
+    #aboutMe p{
+      width: 90%;
+      margin: 5% 5% 10% 5%;  
+    }
+
+
+    #work .content .project{
+    width: 100%;
+    float: left;
+    margin-bottom: 5%;
+    padding-bottom: 10%;
+    }
+
+    #work .content .project.center{
+        margin: 0;
+    }
+
+    .social{
+        width: 100%;
+        padding: 0;
+        margin: 5% 5% 30% 5%;
+    }
 }
 
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
-	body{
-		background-color: pink;
-	}
 	
 	#content{
-		width: 80%;
-		margin: 0 10%;
+		width: 90%;
+		margin: 0 5%;
 	}
-	
-	h1{
-	font-size: 3em;
-	line-height: 1.2em;
-	}	
 
 }
 
 @media only screen and (min-width: 1025px){
-	body{
-		background-color: #000;
-	}
+	
 }
 
 
