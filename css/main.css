@@ -181,13 +181,15 @@ h1.workTitle{
 }
 
 #work .content .projects{
-    display: table;
-    margin: 0 7% 5% 7%;
+    display: inline-block;
+    width: 96%;
+    margin: 0 2%;
 }
 
 #work .content .project{
-    width: 30%;
+    width: 32%;
     float: left;
+    margin: 0 0 5% 0;
 }
 
 #work .content .project img{
@@ -195,7 +197,7 @@ h1.workTitle{
 }
 
 #work .content .project.center{
-    margin: 0 5%;
+    margin: 0 2%;
 }
 
 #work .content .project h1, #work .content .project h2{
@@ -220,6 +222,16 @@ h1.workTitle{
     text-transform: uppercase;
 }
 
+#work .content .project .more{
+    width: 90%;
+    margin: 0 5%;
+    display:none;
+}
+
+#work .content .project .more a{
+    margin:0;
+}
+
 #contact{
     width: 100%;
     background-color: #333;
@@ -241,24 +253,67 @@ h1.workTitle{
 }
 
 .social{
-    display:block;
-    width: 40%;
-    margin: 0 30% 20% 30%;
+    display: block;
     padding: 0;
+    width: 320px;
+    margin: 0 auto 20%;
 }
 
 ul li{
     list-style-type: none;
     float: left;
     color: #FFF;
-    padding-left: 5%;
+    padding-left: 0%;
 }
 
 ul li a{
+    display:inline-block;
     color: #FFF;
+    width: 64px;
+    height: 64px;
+    text-indent: -999999px;
 }
 
 
+a.behance{
+    background:url(../img/sprite.png)no-repeat -64px 0;
+}
+
+a.behance:hover{
+    background:url(../img/sprite.png)no-repeat 0 0;
+}
+
+a.github{
+    background:url(../img/sprite.png)no-repeat -64px -64px;
+}
+
+a.github:hover{
+    background:url(../img/sprite.png)no-repeat 0 -64px;
+}
+
+a.instagram{
+    background:url(../img/sprite.png)no-repeat -64px -128px;
+}
+
+a.instagram:hover{
+    background:url(../img/sprite.png)no-repeat 0 -128px;
+}
+
+a.linkedin{
+    background:url(../img/sprite.png)no-repeat -64px -192px;
+}
+
+a.linkedin:hover{
+    background:url(../img/sprite.png)no-repeat 0 -192px;
+}
+
+a.twitter{
+    background:url(../img/sprite.png)no-repeat -64px -256px;
+}
+
+a.twitter:hover{
+    background:url(../img/sprite.png)no-repeat 0 -256px;
+}
 
 
 
@@ -315,10 +370,11 @@ ul li a{
     }
 
     .social{
-        width: 100%;
-        padding: 0;
-        margin: 5% 5% 30% 5%;
+        width: 200px;
+        margin: 0 auto 40%;
+        padding-bottom: 20%;
     }
+
 }
 
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
