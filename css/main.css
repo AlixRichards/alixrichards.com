@@ -246,10 +246,11 @@ h1.workTitle{
    padding: 5% 0 0 0;
 }
 
-#contact p{
+#contact p, #contact p a{
    font-family: 'Open Sans', Arial, serif; 
    font-weight: 300;
-   text-align:center;  
+   text-align:center;
+   color: #FFF; 
 }
 
 .social{
