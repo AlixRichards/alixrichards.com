@@ -376,6 +376,57 @@ a.twitter:hover{
         padding-bottom: 20%;
     }
 
+
+    a.behance{
+        background:url(../img/sprite@2x.png)no-repeat -128px 0;
+    }
+
+    a.behance:hover{
+        background:url(../img/sprite@2x.png)no-repeat 0 0;
+       
+    }
+
+    a.github{
+        background:url(../img/sprite@2x.png)no-repeat -128px -128px;
+       
+    }
+
+    a.github:hover{
+        background:url(../img/sprite@2x.png)no-repeat 0 -128px;
+        
+    }
+
+    a.instagram{
+        background:url(../img/sprite@2x.png)no-repeat -128px -256px;
+        
+    }
+
+    a.instagram:hover{
+        background:url(../img/sprite@2x.png)no-repeat 0 -256px;
+       
+    }
+
+    a.linkedin{
+        background:url(../img/sprite@2x.png)no-repeat -128px -384px;
+       
+    }
+
+    a.linkedin:hover{
+        background:url(../img/sprite@2x.png)no-repeat 0 -384px;
+       
+    }
+
+    a.twitter{
+        background:url(../img/sprite@2x.png)no-repeat -128px -512px;
+        
+    }
+
+    a.twitter:hover{
+        background:url(../img/sprite@2x.png)no-repeat 0 -512px;
+        
+    }
+
+
 }
 
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
