@@ -378,51 +378,81 @@ a.twitter:hover{
 
 
     a.behance{
-        background:url(../img/sprite@2x.png)no-repeat -128px 0;
+        background:url(../img/sprite@2x.png)no-repeat -64px 0;
+        width: 64px;
+        height: 64px;
+        background-size: 400px 325px;
     }
 
     a.behance:hover{
         background:url(../img/sprite@2x.png)no-repeat 0 0;
+         width: 64px;
+        height: 64px;
+        background-size: 400px 325px;
        
     }
 
     a.github{
-        background:url(../img/sprite@2x.png)no-repeat -128px -128px;
+        background:url(../img/sprite@2x.png)no-repeat -64px -64px;
+         width: 64px;
+        height: 64px;
+        background-size: 400px 325px;
        
     }
 
     a.github:hover{
-        background:url(../img/sprite@2x.png)no-repeat 0 -128px;
+        background:url(../img/sprite@2x.png)no-repeat 0 -64px;
+         width: 64px;
+        height: 64px;
+        background-size: 400px 325px;
         
     }
 
     a.instagram{
-        background:url(../img/sprite@2x.png)no-repeat -128px -256px;
+        background:url(../img/sprite@2x.png)no-repeat -64px -128px;
+         width: 64px;
+        height: 64px;
+        background-size: 400px 325px;
         
     }
 
     a.instagram:hover{
-        background:url(../img/sprite@2x.png)no-repeat 0 -256px;
+        background:url(../img/sprite@2x.png)no-repeat 0 -128px;
+         width: 64px;
+        height: 64px;
+        background-size: 400px 325px;
        
     }
 
     a.linkedin{
-        background:url(../img/sprite@2x.png)no-repeat -128px -384px;
+        background:url(../img/sprite@2x.png)no-repeat -64px -192px;
+         width: 64px;
+        height: 64px;
+        background-size: 400px 325px;
        
     }
 
     a.linkedin:hover{
-        background:url(../img/sprite@2x.png)no-repeat 0 -384px;
+        background:url(../img/sprite@2x.png)no-repeat 0 -192px;
+         width: 64px;
+        height: 64px;
+        background-size: 400px 325px;
        
     }
 
     a.twitter{
-        background:url(../img/sprite@2x.png)no-repeat -128px -512px;
+        background:url(../img/sprite@2x.png)no-repeat -64px -256px;
+         width: 64px;
+        height: 64px;
+        background-size: 400px 325px;
         
     }
 
     a.twitter:hover{
-        background:url(../img/sprite@2x.png)no-repeat 0 -512px;
+        background:url(../img/sprite@2x.png)no-repeat 0 -256px;
+         width: 64px;
+        height: 64px;
+        background-size: 400px 325px;
         
     }
 
