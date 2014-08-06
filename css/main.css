@@ -155,6 +155,11 @@ h2{
     margin: 3% 5%;
 }
 
+#aboutMe p.secondary{
+    margin: 0 5% 3%;
+    float:right;
+}
+
 
 #work{
     width: 100%;
@@ -229,7 +234,7 @@ h1.workTitle{
 }
 
 #work .content .project .more a{
-    margin:0;
+    margin:0 0 10% 0;
 }
 
 #contact{
@@ -355,7 +360,11 @@ a.twitter:hover{
 
     #aboutMe p{
       width: 90%;
-      margin: 5% 5% 10% 5%;  
+      margin: 5% 5% 5% 5%;  
+    }
+
+    #aboutMe p.secondary{
+       margin: 0% 5% 15% 5%;   
     }
 
 
@@ -465,7 +474,7 @@ a.twitter:hover{
 		width: 90%;
 		margin: 0 5%;
 	}
-
+    
 }
 
 @media only screen and (min-width: 1025px){
