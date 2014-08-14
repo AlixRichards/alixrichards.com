@@ -81,19 +81,25 @@ body{
 
 header{
     position: relative;
+    background-color: #333;
 }
 
 header nav{
-    position:absolute;
-    top: 0;
-    left: 0;
-    background-color: #FFF;
+    background-color: #333;
     padding: 1%;
+    /* display: inline-block; */
+    margin: 0 auto;
+    width: 175px;
+    color: #FFF;
 }
 
 header nav a{
     text-decoration: none;
-    color: #333;
+    color: #FFF;
+}
+
+header nav a:hover{
+    color: #99cccc;  
 }
 
 h1{
@@ -119,7 +125,7 @@ h2{
 
 .head01{
     background-color: #333333;
-    padding: 20% 0 0 0;
+    padding: 17% 0 0 0;
     text-align: center;
 }
 
@@ -131,7 +137,7 @@ h2{
 
 #aboutMe{
     width: 100%;
-    background-color: #FFF;
+    background-color: #e3e3e3;
     display:table;
 }
 
@@ -169,7 +175,7 @@ h2{
 
 #work{
     width: 100%;
-    background-color: #99cccc;
+    background-color: #FFF;
     display:table;
 }
 
@@ -232,6 +238,15 @@ h1.workTitle{
     text-decoration: none;
     text-transform: uppercase;
     display:block;
+    cursor: pointer;
+}
+
+#work .content .project a.workImages{
+    margin: 0;
+}
+
+#work .content .project a:hover{
+   text-decoration: underline;
 }
 
 #work .content .project .more{
@@ -263,6 +278,11 @@ h1.workTitle{
    font-weight: 300;
    text-align:center;
    color: #FFF; 
+}
+
+#contact p.contactBody{
+    width: 60%;
+    margin: 2% 20%;
 }
 
 .social{
@@ -386,6 +406,11 @@ a.twitter:hover{
         margin: 0;
     }
 
+    #contact p.contactBody{
+        width: 85%;
+        margin: 2% 7.5%;
+    }
+
     .social{
         width: 200px;
         margin: 0 auto 40%;
@@ -481,6 +506,11 @@ a.twitter:hover{
 		width: 90%;
 		margin: 0 5%;
 	}
+
+    #contact p.contactBody{
+        width: 70%;
+        margin: 2% 15%;
+    }
     
 }
 
